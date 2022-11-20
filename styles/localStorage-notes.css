@@ -1,0 +1,53 @@
+body {
+  font-family: "Red Hat Display";
+}
+
+main {
+  margin: 2rem auto;
+  text-align: center;
+  width: 30%;
+  color: grey;
+  border: 2px solid #ea98f0;
+  padding: 1.5rem;
+}
+/* h1:hover {
+  text-shadow: 1px -1px #ea98f0;
+} */
+input {
+  width: 80%;
+  height: 30px;
+  border: 2px solid #ea98f0;
+  border-radius: 2px;
+  margin: 1rem auto;
+  padding-left: 0.9rem;
+  font-family: "Red Hat Display";
+}
+input:focus {
+  outline: none;
+}
+input:hover {
+  border: 2px solid #c27dc7;
+}
+.list {
+  text-align: justify;
+  margin: 0 auto;
+  border: 1px dashed #ea98f0;
+  width: 70%;
+  min-height: 200px;
+}
+button {
+  font-family: "Red Hat Display";
+  font-size: large;
+  font-weight: 500;
+  letter-spacing: 0.06rem;
+  background: #ea98f0;
+  color: white;
+  margin-left: 1rem;
+  margin-bottom: 5px;
+  padding: 0.8;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  background: #c27dc7;
+}
